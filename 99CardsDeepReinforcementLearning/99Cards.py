@@ -23,10 +23,7 @@ class Board:
             self.cardsRemaining = self.cardsRemaining - 1
             
             return (99.0-(self.cardsRemaining+1))
-
-        
         else:
-            #print('invalid action tf you doing homie')
             return -1000
         
         
