@@ -46,7 +46,7 @@ class Board:
     def getActionList(self):
         result = []
         for stack in range(4):
-            for card in range(0, 7):
+            for card in range(0, 8):
                 result.append((stack,card))
         return list(filter(lambda x: self.isValidAction(x[0],x[1]), result))
 
